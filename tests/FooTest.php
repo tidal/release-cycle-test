@@ -10,7 +10,7 @@ class FooTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->foo = new Foo;
+        $this->foo = new \Tidal\Foo;
     }
 
     public function testObjectMethods()
