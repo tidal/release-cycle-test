@@ -2,15 +2,13 @@
 namespace Tidal;
 
 
-
-
 class Foo {
 	
 
 
 
 	public function bar(){
-		return trua;
+		return true;
 	}
 
 
