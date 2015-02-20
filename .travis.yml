@@ -3,3 +3,11 @@ php:
   - 5.3
   - 5.4
   - 5.5
+  - hhvm 
+
+before_script:
+  - composer selfupdate
+  - composer update --dev --prefer-source --no-interaction $PREFER_LOWEST
+
+script:
+  - phpunit --coverage-clover=coverage.clover
