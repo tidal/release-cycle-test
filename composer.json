@@ -1,0 +1,16 @@
+{
+    "name" : "tidal:test-repo",
+    "require" : {
+        "symfony/symfony":"2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/",
+            "Vendor\\Namespace\\": ""
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "phpspec/phpspec": "~2.0"
+    }
+}
