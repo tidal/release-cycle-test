@@ -4,7 +4,7 @@ namespace Tidal;
 
 
 
-class Test {
+class Foo {
 	
 
 
