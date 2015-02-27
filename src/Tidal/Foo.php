@@ -4,7 +4,7 @@ namespace Tidal;
 
 class Foo {
    
-	public function bar(){
+	public function bar() {
 		return true;
 	}
 
